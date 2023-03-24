@@ -4,5 +4,11 @@ spring:
       client:
         registration:
           google:
-            client-id: SEU CLIENT ID
-            client-secret: SEU CLIENT SECRET
+            client-id: 592204253388-4cuat950dondcd1n16hb83q7bbk4a84m.apps.googleusercontent.com
+            client-secret: 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
+  mvc:
+    pathmatch:
+      use-suffix-pattern: true
+      use-registered-suffix-pattern: true
+      trim-trailing-slash: true
+      trailing-slash-match: true
